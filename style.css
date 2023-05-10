@@ -349,9 +349,145 @@ body{
     border-radius: 10px;
     box-shadow: 3px 4px 15px 6px red;
 }
-
-
 .col-md-7 .loginform ul li button:hover{
     background-color: darkgreen;
     box-shadow: 3px 4px 15px 6px darkgreen;
+}
+@media only screen and  (max-width:412px){
+    .col-md-12 .navbar h1{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .col-md-12 .navbar ul{
+        margin: 0px;
+        margin-top: 3px !important;
+    }
+    .col-md-12 .navbar ul li{
+        float: left !important;
+        margin-top: 1px;
+    }
+    .col-md-6 .img_desc p{
+        text-align: center;
+        margin-left: 3px;
+        margin-top: 150px !important;
+    }
+    .col-md-6 .img_desc button{
+        margin-left: 100px;
+    }
+    .col-md-6 .img_content img{
+        opacity: 0.3;
+        margin-top: -300px !important;
+        margin: 5px;
+        width: 400px;
+    }
+    .col-md-4 .item1 img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px !important;
+        justify-content: center;
+        margin-left: 25%;
+    } 
+    .col-md-4 .text h1{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .col-md-4 .text p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .col-md-4 .text button{
+        margin-left: 120px;
+    }
+
+    .col-md-4 .item2 img{
+        width: 200px;
+        height: 200px;
+        margin-top: -500px !important;
+        justify-content: center;
+        margin-left: 25%;
+    } 
+
+    .col-md-4 .text2 h1{
+        margin-top: 350px !important;
+        margin-left: 100px;
+    }
+    .col-md-4 .text2 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .col-md-4 .text2 button{
+        margin-left: 120px;
+    }
+    .col-md-4 .pic1 img{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -100px;
+        box-shadow: 3px 3px 26px 5px rgba(249, 28, 186, 0.744);
+    }
+    .col-md-4 .pic1 img :hover{
+       opacity: 0.5;
+       overflow: hidden;
+       margin-top: -1000px !important;
+
+    }
+    .col-md-4 .pic1 p{
+        font-size: 15px;
+        margin-left: -100px;
+        
+
+    }
+    .col-md-4 .pic2 img{
+        width: 100px;
+        height: 100px;
+        margin-top: -150px;
+        margin-left: 30px;
+        box-shadow: 3px 3px 26px 5px rgba(28, 249, 227, 0.744);
+    }
+    .col-md-4 .pic2 p{
+        font-size: 13px;
+        margin-left: 26px;
+        margin-top: -25px;
+    }
+    .col-md-4 .pic3 img{
+        width: 100px;
+        height: 100px;
+        margin-top: -160px;
+        margin-left: 160px;
+        box-shadow: 3px 3px 26px 5px rgba(192, 242, 13, 0.744);
+    }
+    .col-md-4 .pic3 p{
+        font-size: 13px;
+        margin-left: 170px;
+        margin-top: -40px;
+    }
+    .col-md-6 .about p{
+        margin-left: 40px;
+    }
+    .col-md-6 .media ul{
+        margin: 0px;
+        margin-left: -10px !important;
+    }
+    .col-md-6 .media ul li{
+        width: 30px;
+        height:  30px;
+        padding-left: 5px;
+        margin-left: 20px !important;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px 1px rgb(244, 244, 165) !important;
+    }
+    .col-md-6 .media ul li :hover{
+        width: 32px !important;
+        height: 31px !important;
+        box-shadow: 2px 2px 9px 3px rgb(255, 0, 157);
+    }
+    .col-md-6 .media ul li h1{
+        width: 30px;
+        height:  30px;
+        size: 30px;
+    }
+    .col-md-7  .loginform{
+        margin-left: 50px;
+        box-shadow: 2px 2px 46px 4px blue;
+    }
 }
