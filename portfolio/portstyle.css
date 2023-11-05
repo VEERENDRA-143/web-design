@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Pacifico&family=Satisfy&display=swap');
+
+
+body{
+    margin: 0px;
+    background-image: linear-gradient(100deg,rgb(53, 4, 21),rgb(36, 1, 1));
+    overflow-x: hidden;
+}
+.navbar .txt{
+    margin-left: 20px;
+    color: rgb(58, 252, 5);
+    font-family: 'Lobster Two', cursive;
+}
+.navbar .txt h1 i{
+    background-color: rgb(255, 0, 200);
+    border-radius: 50%;
+}
+.navbar ul{
+    margin-top: 30px;
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+    padding-right: 50px;
+}
+.navbar ul li button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: brown;
+    font-weight: 700;
+    
+}
+.navbar ul li button:hover{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.263);
+    box-shadow: 3px 3px 6px 8px rgba(0, 0, 255, 0.333);
+}
+
+
+
+.col-md-3{
+    margin-left: 20px;
+    margin-top: 10%;
+}
+.col-md-3 .cardouter .profile{
+
+    opacity: 1;
+    transition: 2s;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-top: 15%;
+    width: 330px;
+    height: 400px;
+    z-index: 0;
+    
+    box-shadow: 3px 3px 26px 9px rgb(192, 190, 191);
+}
+.col-md-3 .cardouter .profile:hover{
+    opacity: 0.6;
+}
+.col-md-3 .cardouter .profile img{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 190px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 50%;
+   
+}
+.col-md-3 .cardouter .profile h3{
+    color: rgba(0, 255, 255, 0.454);
+}
+.col-md-3 .cardouter .profile h4{
+    margin-top: 10px;
+    color: aqua;
+}
+
+.col-md-3 .cardouter .profile h5{
+    color: rgba(0, 255, 255, 0.454);
+}
+
+
+
+.col-md-3 .cardinner{
+    margin-left: 10px;
+    margin-top: -400px;
+    width: 330px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 20px;
+    background-color:rgba(255, 0, 119, 0.363) ;
+    box-shadow: 3px 3px 6px 9px rgba(255, 0, 119, 0.363);
+}
+.col-md-3 .cardinner h1{
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 40%;
+}
+.col-md-3 .cardinner h1:hover{
+    opacity: 0;
+}
+.cardinner:hover{
+    transition: 2s;
+    background-color: transparent;
+}
+.col-md-7{
+    margin-top: 13% !important;
+    
+    margin-left: 5% !important;
+}
+
+.profile_txt h2{
+    margin-top: 50px;
+    margin-left: 300px;
+    color: rgb(5, 243, 199);
+}
+.profile_txt p{
+    color: rgb(243, 5, 184);
+    margin-top: 20px;
+}
+.col-md-10 {
+    margin-top: 10%;
+}
+.col-md-10 .skills h1{
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(4, 4, 253);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col-md-10 .skills h1:hover{
+    text-decoration: underline;
+}
+.col-md-10 .skills ul{
+    margin-top: 30px;
+
+}
+.col-md-10 .skills ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 30px;
+}
+.col-md-10 .skills ul li button{
+    border: 0px;
+    background-color: transparent;
+    color: blanchedalmond;  
+}
+.col-md-10 .skills ul li button:hover{
+    border-bottom: 2px solid red;
+    transition: 0.8s;
+    box-shadow: 1px 1px 10px 4px red;
+    border-radius: 20px;
+}
+.col-md-8 .internships h1{
+    color: rgb(4, 4, 253);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.col-md-8 .internships ul{
+    list-style-type: none;
+}
+.col-md-8 .internships ul li{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(69, 250, 3);
+}
+
+.col-md-8 .internships ul li button{
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    background-color: chocolate;
+    border-radius: 10px;
+    box-shadow: 1px 2px  13px 4px chocolate;
+}
+
+.col-md-11{
+    margin-left: 30px !important;
+
+}
+.col-md-11 .projects h1{
+    color: blue;
+    margin-top: 10%;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.col-md-11 .projects ul{
+    margin-left: 100px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.col-md-11 .projects ul li{
+    justify-content: ceneter;
+    float: left;
+    padding-left: 60px !important;
+}
+.col-md-11 .projects ul li button{
+    width: 160px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 1px 1px 2px 3px aqua;
+}
+
+.contact h1{
+    margin-top: 10%;
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.contact .box{
+    width: 1px;
+    height: 600px;
+    margin-left: 50%;
+    border: 2px solid green;
+    margin-top: 100px;
+    box-shadow: 1px 1px 1px 1px green;
+}
+.contact  table{
+    
+    margin-left: 30%;
+    margin-top: -40%;
+}
+.contact table .r1{
+    margin-left: 20px !important;
+}
+.contact table .r1 h2 button{
+    border: none;
+    width: 236px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 14px 6px aquamarine;
+    color: brown;
+    margin-left: 5px;
+}
+.contact table .r2 .c2 h2 button{
+    border: none;
+    width: 236px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 14px 6px aquamarine;
+    color: brown;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.contact table .r3 h2 button{
+    border: none;
+    width: 236px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 14px 6px aquamarine;
+    color: brown;
+    margin-top: 80px;
+
+}
+.contact table .r4 .c4 h2 button{
+    border: none;
+    width: 300px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 14px 6px aquamarine;
+    color: brown;
+    margin-left: 17px;
+    margin-top: 80px;
+}
+.scrolbar{
+    margin-top: 5%;
+}
+.scrolbar marquee{
+    background-color: darkgoldenrod;
+}
